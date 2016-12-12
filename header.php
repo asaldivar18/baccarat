@@ -1,8 +1,9 @@
 <?php session_start();
 $_SESSION["playernum"];
 $_SESSION["bankernum"];
-$_SESSION["playercount"] = 0;
-$_SESSION["bankercount"]= 0;?>
+$_SESSION["playercount"];
+$_SESSION["bankercount"];
+$_SESSION["tiecount"];?>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -18,4 +19,5 @@ $_SESSION["bankercount"]= 0;?>
     </div>
 </nav>
 <body class="container">
+    <a href="reset.php" class="btn btn-primary pull-right">Log Out</a>
 
